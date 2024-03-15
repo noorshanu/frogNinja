@@ -7,16 +7,18 @@ function Navbar() {
   const [isSidebarVisible, setSidebarVisibility] = useState(false);
 
   return (
-    <nav className=" py-2.5">
+    <nav className=" py-1 border-t-2 border-b-2  border-[#751717]">
       <div className="container-wrapper flex items-center justify-between relative">
        <div className=" flex items-center gap-2">
        <img
           src="/images/logo.png"
-          className="max-w-[6rem] w-full rounded-full"
+          className="max-w-[4rem] w-full rounded-full"
           alt=""
         />
 
-        <p className=" text-2xl font-medium">KingPepe</p>
+        <p className=" text-3xl font-medium font-ninja">
+          FrogNinja
+        </p>
        </div>
 
         <div
@@ -42,7 +44,7 @@ function Navbar() {
 
           <ul className="flex max-lg:flex-col lg:items-center max-lg:space-y-2 lg:space-x-6">
             <li>
-              <a href="/">Home</a>
+              <a href="/" className=" font-ninja">Home</a>
             </li>
             {/* <li>
               <a href="/">About</a>
@@ -51,10 +53,10 @@ function Navbar() {
               <a href="/">Roadmap</a>
             </li> */}
             <li>
-              <a href="/">How to buy</a>
+              <a href="/" className=" font-ninja">How to buy</a>
             </li>
             <li>
-              <a href="/">FAQs</a>
+              <a href="/" className=" font-ninja">FAQs</a>
             </li>
             {/* <li>
               <a href="/">Vote</a>
