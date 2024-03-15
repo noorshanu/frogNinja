@@ -7,7 +7,7 @@ function Hero() {
             King PEPE is the real king of the Solana meme world
           </h4>
 
-          <div className=" flex justify-between items-center ">
+          <div className=" flex justify-between flex-col sm:flex-row items-center ">
             <div className=" w-full">
               <h1 className=" font-ninja text-5xl my-4">FrogNinja</h1>
 
