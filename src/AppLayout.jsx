@@ -2,6 +2,9 @@ import Navbar from "./components/Navbar";
 import AboutUs from "./sections/AboutUs";
 import Hero from "./sections/Hero";
 import Meme from "./sections/Meme";
+import { FaTwitter, FaTelegram } from "react-icons/fa";
+import { IoClose, IoMenu } from "react-icons/io5";
+
 
 function AppLayout() {
   return (
@@ -18,15 +21,12 @@ function AppLayout() {
           </a>
       </div>
       <div>
-        <AboutUs />
-
+        <Meme/>
         <div className=" mt-4">
-
-         <Meme/>
-
+        <AboutUs />
         </div>
 
-        <div className="container-wrapper mt-8">
+        {/* <div className="container-wrapper mt-8">
           <div className=" flex items-center justify-center gap-2">
             <img
               src="/images/logo.png"
@@ -36,8 +36,49 @@ function AppLayout() {
 
             <p className=" text-2xl font-medium">KingPepe</p>
           </div>
-        </div>
+        </div> */}
       </div>
+      <footer className=" w-full pb-8 font-ninja">
+        <div className="container-wrapper mt-8 ">
+          <div className="flex justify-between">
+            <div className="mt-8 flex items-center justify-center gap-2">
+              <img
+                src="/images/logo.png"
+                className="max-w-[4rem] w-full rounded-full"
+                alt=""
+              />
+
+              <p className=" text-2xl font-ninja">FrogNinja</p>
+              <div className="ml-10 flex justify-center items-center ">
+                <ul className="flex gap-4">
+                  <li>Home</li>
+                  <li>How to buy</li>
+                  <li>FAQS</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-4 text-xl [&_a:hover]:opacity-70">
+                <a target="_blank" href="https://twitter.com/KingPepeee">
+                  <FaTwitter />
+                </a>
+                <a target="_blank" href="https://t.me/kingpepeso">
+                  <FaTelegram />
+                </a>
+              </div>
+
+              <button
+                className="text-2xl lg:hidden"
+              >
+                <IoMenu />
+              </button>
+            </div>
+          </div>
+
+          <div className="border-b border-[grey] my-5" />
+        </div>
+      </footer>
     </>
   );
 }
