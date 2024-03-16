@@ -17,7 +17,7 @@ function Navbar() {
         />
 
         <p className=" text-3xl font-medium font-ninja">
-          FrogNinja
+        NinjaFrog 
         </p>
        </div>
 
