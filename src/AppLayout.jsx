@@ -50,7 +50,7 @@ function AppLayout() {
                 alt=""
               />
 
-              <p className=" text-2xl font-ninja">FrogNinja</p>
+              <p className=" text-2xl font-ninja">NinjaFrog </p>
               <div className="ml-10 flex justify-center items-center ">
                 <ul className="flex gap-4">
                   <li>Home</li>
