@@ -10,7 +10,7 @@ function Meme() {
       <div className=" flex items-center gap-4 justify-between flex-col sm:flex-row">
         <div className=" rounded-xl border border-[#a1ff3c] w-[370px] h-full  text-center p-4">
           <div>
-            <p className="font-ninja text-xl">Telegram Games on Frog ninja</p>
+            <p className="font-ninja text-xl">Telegram Games on Ninja Frog</p>
           </div>
 
           <div className="w-[270px] mx-auto py-2  border-none rounded-2xl overflow-hidden">
@@ -37,7 +37,7 @@ function Meme() {
 
           <div className="ml-2 flex justify-center items-center">
             <p className="capitalize">
-              Dive into the depths of meme mastery with Frog Ninja's epic NFT
+              Dive into the depths of meme mastery with Ninja Frog epic NFT
               collection! Explore a wonderland of rare and hilarious NFTs
               
             </p>
@@ -56,7 +56,7 @@ function Meme() {
           <div className="ml-2 flex justify-center items-center">
             <p className="capitalize">
               Frog Ninja's vibes are legendary, just like his memes! Become part
-              of the Solana culture with Frog Ninja by your side. From memes to
+              of the Solana culture with Ninja Frog by your side. From memes to
               community events.
             </p>
           </div>

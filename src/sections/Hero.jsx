@@ -13,7 +13,7 @@ function Hero() {
 
               <p className=" text-base sm:text-xl">Hop on board, fellow meme enthusiasts and crypto adventurers! Welcome to the realm of NinjaFrog , the ultimate fighter frog of the Solana blockchain!</p>
               <p className=" text-base sm:text-xl py-2">
-              NinjaFrog  isn't just your average meme; it's a force to be reckoned with! With lightning speed, unbeatable strength, boundless energy, and a charm that'll make even the toughest whales swoon, NinjaFrog  is here to take the Solana community to the moon and beyond!
+              Ninja Frog  isn't just your average meme; it's a force to be reckoned with! With lightning speed, unbeatable strength, boundless energy, and a charm that'll make even the toughest whales swoon, NinjaFrog  is here to take the Solana community to the moon and beyond!
               </p>
               <div className="relative z-40 flex items-center justify-start my-4 max-sm:flex-col max-sm:space-y-4 sm:space-x-5">
                 <a
