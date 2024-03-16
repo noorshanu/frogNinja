@@ -53,7 +53,7 @@ function Navbar() {
               <a href="/">Roadmap</a>
             </li> */}
             <li>
-              <a href="/" className=" font-ninja">How to buy</a>
+              <a href="/" className=" font-ninja">Products</a>
             </li>
             <li>
               <a href="/" className=" font-ninja">FAQs</a>
@@ -66,10 +66,10 @@ function Navbar() {
 
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-4 text-xl [&_a:hover]:opacity-70">
-            <a target="_blank" href="https://twitter.com/KingPepeee">
+            <a target="_blank" href="https://twitter.com/frog_ninjaaa">
               <FaTwitter />
             </a>
-            <a target="_blank" href="https://t.me/kingpepeso">
+            <a target="_blank" href="https://t.me/ninjafrogs">
               <FaTelegram />
             </a>
           </div>

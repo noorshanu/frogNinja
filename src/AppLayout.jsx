@@ -5,25 +5,27 @@ import Meme from "./sections/Meme";
 import { FaTwitter, FaTelegram } from "react-icons/fa";
 import { IoClose, IoMenu } from "react-icons/io5";
 
-
 function AppLayout() {
   return (
     <>
-    
-        <Navbar />
-        <main className=" pt-2 bg-main">
+      <Navbar />
+      <main className=" pt-2 bg-main">
         <Hero />
       </main>
       <div className=" h-[70px] border-t-2 border-b-2 py-4 border-[#751717] mb-2 ">
-      <a href="https://solscan.io/token/nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN" target="_blank" className="my-2 flex justify-center text-base text-center text-white  sm:text-xl">
-            {" "}
-            Contract : nPQTtFaZXWJNCshUAhTh67Vqb2RoGoEr4z8n5fVp9pN
-          </a>
+        <a
+          href="https://solscan.io/token/ESdCVVCEbwP5Fm7pdGhYAhBVFVTw53JGqG5LZBrVsezZ"
+          target="_blank"
+          className="my-2 flex justify-center text-base text-center text-white  sm:text-xl"
+        >
+          {" "}
+          Contract : ESdCVVCEbwP5Fm7pdGhYAhBVFVTw53JGqG5LZBrVsezZ
+        </a>
       </div>
       <div>
-        <Meme/>
+        <Meme />
         <div className=" mt-4">
-        <AboutUs />
+          <AboutUs />
         </div>
 
         {/* <div className="container-wrapper mt-8">
@@ -52,7 +54,7 @@ function AppLayout() {
               <div className="ml-10 flex justify-center items-center ">
                 <ul className="flex gap-4">
                   <li>Home</li>
-                  <li>How to buy</li>
+                  <li>Products</li>
                   <li>FAQS</li>
                 </ul>
               </div>
@@ -60,17 +62,15 @@ function AppLayout() {
 
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-4 text-xl [&_a:hover]:opacity-70">
-                <a target="_blank" href="https://twitter.com/KingPepeee">
+                <a target="_blank" href="https://twitter.com/frog_ninjaaa">
                   <FaTwitter />
                 </a>
-                <a target="_blank" href="https://t.me/kingpepeso">
+                <a target="_blank" href="https://t.me/ninjafrogs">
                   <FaTelegram />
                 </a>
               </div>
 
-              <button
-                className="text-2xl lg:hidden"
-              >
+              <button className="text-2xl lg:hidden">
                 <IoMenu />
               </button>
             </div>
