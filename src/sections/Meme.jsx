@@ -55,7 +55,7 @@ function Meme() {
 
           <div className="ml-2 flex justify-center items-center">
             <p className="capitalize">
-              Frog Ninja's vibes are legendary, just like his memes! Become part
+               Ninja Frog  vibes are legendary, just like his memes! Become part
               of the Solana culture with Ninja Frog by your side. From memes to
               community events.
             </p>
